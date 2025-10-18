@@ -1,0 +1,27 @@
+{
+  "invalidAccountName": "wrong input 1",
+  "invalidUsername": "wrong input 2",
+  "invalidPassword": "wrong password",
+  "validAccountName": "gpxpw1",
+  "validUsername": "gpadmin",
+  "validPassword": "098poi)(*POI",
+  "regularOrder": "GP-Manual-Order-67",
+  "multiPackOrder": "GP-Manual-Order-83",
+  "multiPackOrderBarCode": "6300",
+  "regOrderItem1barcode": "286",
+  "regOrderItem2barcode": "356",
+
+  "multipackItem1barcode": "pentasoap",
+  "multipackItem2barcode": "harpicthrice",
+  "multipackItem3barcode": "palmoil",
+
+  "singlePerfumeBarCode": "630",
+
+  "kitSingleBarCode": "GP-Manual-Order-77",
+  "kitMultiBarCode": "GP-Manual-Order-78",
+  "combMultiPackOrderBarCode": "211",
+  "pamoliveMultiPackOrderBarCode": "212",
+  "carPolishMultiPackOrderBarCode": "213",
+
+  "regularOrder2": "GP-Manual-Order-80"
+}

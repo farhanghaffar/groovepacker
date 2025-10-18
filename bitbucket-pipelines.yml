@@ -1,0 +1,14 @@
+image: mcr.microsoft.com/playwright:v1.41.1-jammy
+
+pipelines:
+  default:
+    - step:
+        name: Groove Packer
+
+        script:
+          - npm install
+          - npx playwright install-deps
+          - npm run tests:all
+
+        artifacts:
+          - playwright-report/**

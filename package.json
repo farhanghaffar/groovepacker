@@ -1,0 +1,35 @@
+{
+  "name": "groovepackerautomation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tests:all": "npx playwright test Tests/Test",
+    "test": "npx playwright test Tests/Test/GPX",
+    "test:v2": "npx playwright test Tests/Test/GPX/03",
+    "test:recount": "npx playwright test Tests/Pages/GPX/07",
+    "legacy": "npx playwright test Tests/Test/LEGACY",
+    "subscription": "npx playwright test Tests/Test/LEGACY/06-SUBSCRIPTION-LEGACY",
+    "report:show": "npx playwright show-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.41.2",
+    "@slack/types": "^2.11.0",
+    "@slack/web-api": "^7.0.2",
+    "@types/fs-extra": "^11.0.1",
+    "@types/node": "^20.4.5",
+    "@typescript-eslint/eslint-plugin": "^6.2.0",
+    "@typescript-eslint/parser": "^6.2.0",
+    "archiver": "^6.0.1",
+    "dotenv": "^16.3.1",
+    "eslint": "^8.45.0",
+    "eslint-config-prettier": "^8.8.0",
+    "playwright-qase-reporter": "^1.2.2",
+    "playwright-slack-report": "^1.1.72",
+    "prettier": "^3.0.0",
+    "typescript": "^5.1.6"
+  }
+}
