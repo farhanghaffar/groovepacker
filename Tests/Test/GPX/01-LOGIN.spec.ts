@@ -5,7 +5,7 @@ import testData from '../../../Utils/testData.json';
 test.describe(`Page - Login`, async () => {
   let page: Page;
 
-  test('Test: 1:- Verify that user is able to login successfully using valid credentials - login-1', async ({
+  test('Test 1:- Verify that user is able to login successfully using valid credentials - login-1', async ({
     page,
   }) => {
     const loginPage = new LoginPage(page);
